@@ -55,7 +55,10 @@ public:
     ~Lista();
     void reset();
     
+    //funciton to check if it is going to be shipped outside of Hidalgo
     void isGoingEstafeta(char o);
+    
+    //incrment function
     void incrementBoxCount();
     
     //write to file functions

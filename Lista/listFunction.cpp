@@ -78,7 +78,7 @@ void Lista::formFullAddress() {
 }
 
 void Lista::writeEntryToFile() {
-    file.open("lista.txt", ios::app);
+    file.open("johnnyresendiz/lista.txt", ios::app);
     
     file << listEntry << endl;
     cout << getBoxCode() << endl;
